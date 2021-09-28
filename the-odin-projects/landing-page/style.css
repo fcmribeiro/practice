@@ -1,15 +1,13 @@
 body{
     margin:0;
-    
-    
+        
 }
 
 .hero-section{
 
     background-color: #1f2937 ;
     padding: 5px 100px 30px 100px;
-    
-    
+        
 }
 
 .navbar{
@@ -30,15 +28,13 @@ ul{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    
-    
+        
 }
 
 .hero-description{
     margin-bottom: 60px;
 
 }
-
 
 .hero-description h1 {
     font-size: 48px;
@@ -53,6 +49,7 @@ ul{
 }
 
 .button{
+
     background-color: #3888F6;
     border: none;
     color:white;
@@ -60,9 +57,6 @@ ul{
     height:30px;
     width: 100px;
 }
-
-
-
 
 .hero-image {
         
@@ -80,7 +74,49 @@ ul{
     
     display: flex;
     flex-direction: column;
+        
+}
+
+
+#information{
+    text-align: center;
+    padding: 35px;
+
+
+}
+
+#information h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
     
-      
+}
+
+#information p{
+    color:black;
+    opacity: 50%;
+}
+
+.square{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    gap:5px;
+}
+
+.sq-desc{
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    border:#3882F6 solid 2px;
+}
+
+.square-container{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    margin-top: 50px;
 }
 
