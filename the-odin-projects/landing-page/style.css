@@ -120,3 +120,24 @@ ul{
     margin-top: 50px;
 }
 
+
+#quote{
+    background-color: #E5E7EB;
+    margin:0;
+    padding:40px 200px 40px 200px;
+}
+
+#quote p{
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#author{
+    margin-left: 600px;
+    
+}
+
+#author p{
+    font-size: 10px;
+}
