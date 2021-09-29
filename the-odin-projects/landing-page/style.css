@@ -121,23 +121,87 @@ ul{
 }
 
 
-#quote{
+.quote {
     background-color: #E5E7EB;
-    margin:0;
-    padding:40px 200px 40px 200px;
+    padding: 70px;
+        
 }
 
-#quote p{
-    color:#1F2937;
-    font-size: 36px;
-    font-weight: 100;
-}
-
-#author{
-    margin-left: 600px;
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
     
 }
 
-#author p{
-    font-size: 10px;
+.quote-1{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 700px;
+    text-align: justify;
 }
+
+.author{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 300px;
+    margin-top: 0px;
+
+}
+
+.sign{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.bluebar {
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 800px;
+    height: 80px;
+    border-radius: 8px;
+    padding: 10px;
+
+
+}
+
+
+.sign-description{
+    display:flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.sign-bolder{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.sign-lighter{
+    margin-top:0;
+}
+
+.button-2{
+    background-color: #3888F6;
+    border: 2px solid white;
+    color:white;
+    border-radius: 5px;
+    height:30px;
+    width: 100px;
+}
+    
+
+
+    
