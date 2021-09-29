@@ -201,6 +201,14 @@ ul{
     height:30px;
     width: 100px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+}
     
 
 
